@@ -4,11 +4,20 @@
 Login page
 </title>
 </head>
-<body background-color:black>
+ <style>
+ body{
+            background-color:black
+            }
+  h1{
+            color: white;
+            font-family:monospace;
+            }
+ </style>
+<body>
  
 
 <h1 style="font-family:monospace;text-align="center";font-size:20pt;
-color:white>
+color:black>
 Simple Login Page
 </h1>
 <form name="login">
@@ -23,7 +32,7 @@ function check(form)/*function to check userid & password*/
  /*the following code checkes whether the entered userid and password are matching*/
  if(form.userid.value == "user" && form.pswrd.value == "password")
   {
-    window.open('https://sukiw.github.io)/*opens the target page while Id & password matches*/
+    window.open('https://sukiw.github.io')/*opens the target page while Id & password matches*/
   }
  else
  {
