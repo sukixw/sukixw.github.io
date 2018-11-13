@@ -1,0 +1,22 @@
+<html>
+<body>
+
+<p>Select your favorite album:</p>
+<form action="/action_page.php">
+  <input type="radio" name="browser" onclick="myFunction(this.value)" value="Night Version">Internet Explorer<br>
+  <input type="radio" name="browser" onclick="myFunction(this.value)" value="Smoke + Mirror">Firefox<br>
+  <input type="radio" name="browser" onclick="myFunction(this.value)" value="Evolves">Opera<br>
+ 
+  Your favorite browser is: <input type="text" id="result">
+  <input type="submit" value="Submit form">
+</form>
+
+<script>
+function myFunction(browser) {
+    document.getElementById("result").value = browser;
+}
+</script>
+
+</body>
+</html>
+
